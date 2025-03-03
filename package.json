@@ -24,11 +24,16 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
-    "test": ""
+    "dev": "tsup --watch",
+    "test": "",
+    "build": "tsup"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250224.0",
-    "ioredis": "^5.5.0"
+    "ioredis": "^5.5.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "tsup": "^8.4.0"
   }
 }
