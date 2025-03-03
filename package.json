@@ -1,0 +1,34 @@
+{
+  "name": "idempotent",
+  "version": "1.0.0",
+  "description": "A sdk for idempotent",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Nischal Dahal",
+    "email": "info@nischal.pro",
+    "url": "https://link.nischal.pro/visit"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250224.0",
+    "ioredis": "^5.5.0"
+  }
+}
