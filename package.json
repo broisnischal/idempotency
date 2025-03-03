@@ -6,16 +6,20 @@
   "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
+  "exports": {
+    ".": "./dist/index.js",
+    "./middleware": "./dist/middleware.js"
+  },
   "engines": {
     "node": ">= 14.0.0",
     "npm": ">= 6.0.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/broisnischal/idempotent",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/broisnischal/idempotent"
   },
-  "bugs": "",
+  "bugs": "https://github.com/broisnischal/idempotent/issues",
   "keywords": [],
   "author": {
     "name": "Nischal Dahal",
@@ -30,6 +34,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250224.0",
+    "@types/express": "^5.0.0",
+    "elysia": "^1.2.24",
     "ioredis": "^5.5.0",
     "typescript": "^5.8.2"
   },
